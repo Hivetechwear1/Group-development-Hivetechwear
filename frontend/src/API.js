@@ -10,7 +10,7 @@ let baseURL;
 // } else {
 // 	baseURL = REACT_APP_API_BASE_URL_DEV;
 // }
-baseURL = "https://hivetechwear-backend.herokuapp.com/";
+baseURL = "https://backend-hivetech-wear.herokuapp.com/";
 
 const api = axios.create({
   baseURL: baseURL,
