@@ -97,15 +97,15 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
-#
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd47i8clpqce445',
-        'USER': 'qcjdejjpjlizad',
-        'PORT': 5432,
-        'HOST': 'ec2-54-157-79-121.compute-1.amazonaws.com',
-        'PASSWORD': '0417b5d8809c17f07710c2c95f7618e43acd19580e22bc14ec96de4c9f79a8c0',
+       'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'deal1011igmh1d',
+        'HOST' :'ec2-35-175-68-90.compute-1.amazonaws.com',
+        'PORT' : 5432,
+        'USER' : 'anvigrfhoyuskv',
+        'PASSWORD' : '744ee0c1975864aa45d57536b8ce39a506af959eb6cdef827af09ddb13351f88'
     }
 }
 django_heroku.settings(locals())
@@ -134,6 +134,7 @@ cloudinary.config(
     api_secret="WGcWrWfkPlxdOCdlFaLTdjSNtfo",
     secure=True
 )
+
 
 
 # Internationalization
